@@ -1,0 +1,65 @@
+* {
+    font-family: 'Nunito', 'Segoe UI', Arial;
+}
+body {
+    background-color: white;
+}
+
+.kotak {
+    margin: 0px auto;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin-top: 15vh;
+}
+.konten {
+    margin-top:30px;
+}
+.baris {
+    margin-top: 0px;
+}
+.kolom-dalam {
+    padding-left: 0px;
+    height: 50px;
+}
+.btn-login {
+    margin-top: 10px;
+    color: white;
+    font-size: 12pt;
+}
+.btn-login:hover {
+    color: white;
+}
+.eye {
+    color: black;
+}
+h5 {
+    margin-top: 10px;
+}
+.shadow {
+    box-shadow: 0px 3px px black;
+}
+.pwd,.usr {
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-danger {
+    font-size: 10pt;
+}
+.link {
+    text-decoration: none;
+}
+.forget {
+    font-size: small;
+}
+.judul {
+    font-weight: bold;
+}
+@media screen and (max-width: 990px) {
+    .kotak {
+        margin: 0px auto;
+        width: 385px;
+        height: auto;
+        margin-top: 15vh;
+    }
+}
